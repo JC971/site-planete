@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@400;500;600&display=swap')
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%
+
+}
+
+body{
+    background: url(./img/fond-mer.jpg)no-repeat 50% 50%;
+    background-size:cover;
+    font-family: 'Pridi', serif;
+    height: 100vh;
+    background-attachment: fixed;
+   
+    
+    }
+
+
+/*----------------------nav bar-------------------------*/
+.bandeau{
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.slogan{
+    text-align: center;
+    font-size: 1.4em;
+}
+.planete{
+    text-transform: uppercase;
+}
+.plaisir{
+    color: rgb(210, 160, 14);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-shadow: 1px 2px 2px black ;
+
+}
+.horraires{
+    text-align: center;
+}
+
+
+/*------------------------container-----------------------------------------------*/
+
+.container{
+    width: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 250px 150px 150px 150px;
+}
+
+
+   
+/*----------------------------------------*/
+
+.slider{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height:340px;
+    /*border: 3px solid rgb(210, 160, 14);*/
+    top: 0px;
+
+    
+    
+   
+}
+
+.slider img{
+    object-fit: cover;
+    height: 100%;
+    width: 800px;
+    max-height:360px;
+    position: absolute;
+    top:0px;
+    display: center;
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 60px;
+    padding: 0;
+    z-index: 10;
+    border-radius: 6px;
+    
+}
+
+.slider img.active {
+    opacity: 1;
+}
+
+.suivant, .precedent{
+    color: #fff;
+    font-size: 3rem;
+    top:800px;
+    position: absolute;
+    top: -50%;
+    transform: trfanslateY(-50%);
+    cursor: pointer;
+    z-index: -25;
+    
+}
+
+.suivant{
+    right: 40rem;
+}
+
+.precedent{
+    left: 40rem;
+}
+
+/*-------------------items---------------------*/
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.item1{
+    grid-column-start: 5;
+    grid-row-start: 1;
+    font-weight: 800;
+    text-align: center;
+      
+}
+
+
+.item5{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.item6{
+    grid-column: 1;
+    grid-row: 2;
+    border-top: 2px solid rgb(210, 160, 14);
+    border-top: 2px solid rgb(210, 160, 14);
+    Padding: 70px;
+    border-bottom: 2px solid rgb(210, 160, 14) ;
+}
+.item7{
+    grid-column: 4;
+    grid-row-start:4 ;
+    text-align: center;
+}
+
+.item8{
+    grid-column:2 ;
+    grid-row: 4;
+}
+    
+.mail{
+    font-weight: 600;
+}
+
+.item9{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+li a:hover{
+    background-color: #fff;
+    
+}
+ li{
+   
+   list-style: none;
+  
+}
+
+li a{ ;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+
+    
+}
+
+
+.item10{
+    grid-column-start: 3;
+    
+    
+
+}
+.articles{
+    text-align: center;
+}
+
+
+.item11{
+    grid-column: 1;
+}
+.item12{
+    grid-column: 2;
+    grid-row: 2;
+    border-top: 2px solid rgb(210, 160, 14);
+    Padding: 70px;
+    border-bottom: 2px solid rgb(210, 160, 14) ;
+    
+    
+      
+}
+.item13{
+    grid-column: 3;
+    grid-row: 2;
+    border-top: 2px solid rgb(210, 160, 14);
+    Padding: 70px;
+    border-bottom: 2px solid rgb(210, 160, 14) ;
+}
+.item14{
+    grid-column: 4;
+    grid-row: 2;
+    border-top: 2px solid rgb(210, 160, 14);
+    border-top: 2px solid rgb(210, 160, 14);
+    Padding: 70px;
+    border-bottom: 2px solid rgb(210, 160, 14) ;
+}
+
+}
+/*------------------------------footer---------------------*/
+/*footer{
+    background-color:bisque;
+    margin: auto;
+    color: black;
+   
+}
+
+.brand{
+    grid-column-start: 4;
+    padding: 2rem;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid rgb(210, 160, 14);
+    grid-row-start: 4;
+    
+}
+input [type = text]{
+    padding: 8px 10px;
+    background-color: rgb(22, 19, 19);
+    border:1px solid #ccc;
+    outline: none;
+    color-interpolation-filters: white;
+}
+.btn{
+color:black;
+background-color: #ccc;
+outline: none;
+border:none;
+padding: 9px 25px;
+border-radius: 14px;
+font-size: 14px;
+font-weight: 600;
+}
+.btn:hover{
+    background-color: rgb(210, 160, 14);
+}
+p{
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.shop-name{
+grid-column-start: 3;
+grid-row-start: 3;
+display: inline;
+}
+
+.categorie{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    padding: 2rem;
+    display: inline;
+    text-decoration: none;
+}
+.top-marques{
+grid-column-start: 4;
+grid-row-start: 4
+;
+}
+.confidentialite{
+    grid-row-start: 3;
+    
+    
+}
+.social{
+    grid-row-start: 2;
+    padding: 2rem;
+    justify-content: space-between;
+    border-top: 2px solid rgb(210, 160, 14);
+    grid-row-start: 4;
+    grid-column-start: 3;
+    border: 3px solid black;
+}
+
+/*-------------------------------div-------------------------*/
+
+/*-----------------------------------------newfooter---------------------*/
+.brand{
+    grid-column-start: 5;
+
+}
