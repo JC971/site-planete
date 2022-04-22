@@ -54,6 +54,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 350px 250px 150px 150px 150px;
+    max-width: 1400px;
 }
 
 
@@ -192,7 +193,6 @@ li a{ ;
 .item10{
     grid-column-start: 3;
     
-    
 
 }
 .articles{
@@ -229,6 +229,8 @@ li a{ ;
     border-bottom: 2px solid rgb(210, 160, 14) ;
 }
 
+.item10 ul{
+    text-align: center;
 }
 /*------------------------------footer---------------------*/
 /*footer{
