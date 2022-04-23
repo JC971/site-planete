@@ -52,7 +52,7 @@ body{
 .container{
     width: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 350px 350px;
     grid-template-rows: 350px 250px 150px 150px 150px;
     max-width: 1400px;
 }
@@ -191,7 +191,9 @@ li a{ ;
 
 
 .item10{
-    grid-column-start: 3;
+    grid-column-start: 1;
+    grid-row: 4;
+    
     
 
 }
