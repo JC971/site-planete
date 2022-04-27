@@ -17,8 +17,7 @@ body{
     /*background-color: rgba(210, 160, 14, .18);*/
     background-color:rgba(41,140,205, .3);
     
-   
-    
+     
     }
 
 
@@ -54,8 +53,8 @@ body{
 .container{
     width: 100vh;
     display: grid;
-    grid-template-columns:300px 300px 300px 300px 290px 290px;
-    grid-template-rows:450px 150px 150px 150px 150px;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:
     max-width: 100vh;
     
     
@@ -131,23 +130,26 @@ h3{
     grid-row-start: 1;
     font-weight: 800;
     text-align: center;  
+    padding-right: 30px;
     
 }
 .item2{
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 4;
+  
     grid-row-start: 1;
-    text-align: center;
+    padding-top: 100px;
+    
     
 }
 .item3{
     grid-column-start: 1;
     grid-row-start: 1;
-    padding: 0px;
+    padding: 20px;
 }
 .item4{
     grid-template-rows: 1;
     grid-column-start: 6;
+    padding-left: 50px;
 }
 
 
@@ -229,9 +231,9 @@ li a{ ;
 .item12{
     grid-column: 2;
     grid-row: 2;
-    border-top: 2px solid rgb(210, 160, 14);
+    
     Padding: 70px;
-    border-bottom: 2px solid rgb(210, 160, 14) ;
+    
     
     
       
@@ -239,17 +241,15 @@ li a{ ;
 .item13{
     grid-column: 3;
     grid-row: 2;
-    border-top: 2px solid rgb(210, 160, 14);
+    
     Padding: 70px;
-    border-bottom: 2px solid rgb(210, 160, 14) ;
+   
 }
 .item14{
     grid-column: 4;
     grid-row: 2;
-    border-top: 2px solid rgb(210, 160, 14);
-    border-top: 2px solid rgb(210, 160, 14);
     Padding: 70px;
-    border-bottom: 2px solid rgb(210, 160, 14) ;
+    
 }
 .item15{
     grid-column-start: 6;

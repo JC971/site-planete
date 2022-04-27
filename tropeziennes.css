@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@400;500;600&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+body{
+    background: url(./img/les-tropeziennes-fond-ecran.jpg)no-repeat 50% 50%;
+    background-size:cover;
+    font-family: 'Pridi', serif;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+    /*background-color: rgba(210, 160, 14, .18);*/
+    background-color:rgba(41,140,205, .3);
+    
+     
+    }
+    .bandeau{
+        text-align: center;
+        font-size: 2em;
+        
+    }
+    
+    .slogan{
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .planete{
+        text-transform: uppercase;
+    }
+    .plaisir{
+        color: rgb(210, 160, 14);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.4em;
+        text-shadow: 1px 2px 2px black ;
+    
+    }
+    .horraires{
+        text-align: center;
+    }
+    
+
