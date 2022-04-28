@@ -8,14 +8,14 @@
 }
 
 body{
-    background: url(./img/les-tropeziennes-fond-ecran.jpg)no-repeat 50% 50%;
+    background: url() 20%;
     background-size:cover;
     font-family: 'Pridi', serif;
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
     /*background-color: rgba(210, 160, 14, .18);*/
-    background-color:rgba(41,140,205, .3);
+    ;
     
      
     }

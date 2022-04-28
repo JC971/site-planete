@@ -4,20 +4,21 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
     
 }
 
 body{
-    background: url(./img/fond-mer.jpg)no-repeat 50% 50%;
+    background: url()no-repeat 50% 50% ;
+    
     background-size:cover;
     font-family: 'Pridi', serif;
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
+    padding:20px;
     /*background-color: rgba(210, 160, 14, .18);*/
-    background-color:rgba(41,140,205, .3);
     
-     
     }
 
 
@@ -53,13 +54,22 @@ body{
 .container{
     width: 100vh;
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    grid-template-rows:
-    max-width: 100vh;
-    
+    grid-template-columns:340px 340px  auto 340px 340px;
+    grid-auto-flow: dense;
+    grid-template-rows: repeat(4, 300px);
+   /*grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));*/
+    height: 100vh;
+    /*grid-template-columns: repeat(6, 1fr);*/
+    padding-right: 20px;
+   
     
 }
 
+.container img{
+    
+  max-width: 290px;  
+  max-height: 280px;
+}
    
 /*----------------------------------------*/
 
@@ -125,31 +135,42 @@ h3{
     text-align: center;
 }
 
+.item img{
+max-width: 200px;
+
+}
+
+
 .item1{
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-row-start: 1;
     font-weight: 800;
     text-align: center;  
-    padding-right: 30px;
-    
+      
 }
+.sandale{
+    height: 300px;
+}
+
 .item2{
     grid-column-start: 4;
-  
+    text-align: center;
     grid-row-start: 1;
-    padding-top: 100px;
     
-    
+      
 }
+
 .item3{
     grid-column-start: 1;
     grid-row-start: 1;
-    padding: 20px;
+    text-align: center;
+    
 }
 .item4{
-    grid-template-rows: 1;
-    grid-column-start: 6;
-    padding-left: 50px;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    text-align: center;
+  
 }
 
 
@@ -159,11 +180,16 @@ h3{
     font-weight: 800;
     text-align: center;
     font-size: 1.2rem;
+   
+   
+}
+.mur-chaussures{
+    height: 300px;
 }
 .item6{
-    grid-column: 1;
-    grid-row: 2;
-    Padding-top: 70px;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 20px;
     
 }
 .item7{
@@ -252,7 +278,7 @@ li a{ ;
     
 }
 .item15{
-    grid-column-start: 6;
+    grid-column-start5;
 }
 
 
@@ -337,6 +363,7 @@ grid-row-start: 4
 
 /*-----------------------------------------newfooter---------------------*/
 .brand{
-    grid-column-start: 5;
+    grid-column-start:4 ;
+    grid-row-start: 4;
 
 }
