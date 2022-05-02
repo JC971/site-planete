@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@400;500;600&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: url()no-repeat 50% 50% ;
+    
+    background-size:cover;
+    font-family: 'Pridi', serif;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+    padding:20px;
+    /*background-color: rgba(210, 160, 14, .18);*/
+    
+    }
+
+/*----------------------nav bar-------------------------*/
+.bandeau{
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.slogan{
+    text-align: center;
+    font-size: 1.4em;
+}
+.planete{
+    text-transform: uppercase;
+}
+.plaisir{
+    color: rgb(210, 160, 14);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-shadow: 1px 2px 2px black ;
+
+}
+.horraires{
+    text-align: center;
+}
+
+/*-------------------------contenu---------------------------*/
+
+.container{
+    width: 100vh;
+    display: grid;
+    grid-template-columns: 400px 400px 450px 400px;
+    padding: 20px;
+}
+
+.container img{
+    
+    max-width: 450px;  
+    max-height: 280px;
+    
+  }
+  /*------------------------------------------------------------*/
+
+.item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    padding: 20px;
+    text-align: center;
+
+}
+.item2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 20px;
+    text-align: center;
+}
+.item3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.item4{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    text-align: center;
+    padding: 20px;
+}
