@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
+    width: 100%;
     
 }
 
@@ -52,7 +53,8 @@ body{
 .container{
     width: 100vh;
     display: grid;
-    grid-template-columns: 400px 400px 450px 400px;
+    grid-template-columns: 400px 400px 400px 400px auto;
+    grid-template-rows: 324px 324px 230px;
     padding: 20px;
 }
 
@@ -63,7 +65,10 @@ body{
     
   }
   /*------------------------------------------------------------*/
-
+  h3{
+      text-transform: uppercase;
+  }
+/*------------------------------------------------------------*/
 .item1{
     grid-column-start: 1;
     grid-row-start: 1;
@@ -90,3 +95,121 @@ body{
     text-align: center;
     padding: 20px;
 }
+
+.item5{
+    grid-column-start: 5;
+    grid-row-start: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.item6{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.item7{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.item8{
+    grid-column-start: 3;
+    grid-row-start: 2
+    text-align: center;
+    padding: 20px;
+}
+
+.item9{
+    grid-column-start: 4;
+    grid-row-start: 2
+    text-align: center;
+    padding: 20px;
+}
+
+.item10{
+    grid-column-start: 5;
+    grid-row-start: 2;
+    text-align: center;
+    padding: 20px;
+}
+.item11{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    text-align: center;
+    padding: 20px;
+    background:#333;
+}
+
+.item12{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: center;
+    padding: 20px;
+    background: #333;
+}
+
+.item13{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    text-align: center;
+    padding: 20px;
+    background: #333;
+}
+
+.item14{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    text-align: center;
+    padding: 20px;
+    background: #333;
+}
+
+.item15{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    text-align: center;
+    padding: 20px;
+    background: #333; 
+}
+
+/*-----------------------------------*/
+
+
+.item11 h3{
+    color: #fff;
+}
+
+.item11  ul li{
+    list-style: none;
+    text-align: left;
+}
+.item11 ul li a{
+    color: #fff;
+    
+}
+
+/*----------------itrem 12-----------------*/
+
+.item12 h3{
+    color: #fff;
+}
+.item12 ul li{
+    list-style:none;
+    text-align: left;
+}
+.item12 ul li a{
+    color: #fff;
+}
+
+/*------------------------item 14 ----------------*/
+
+.item14 h3{
+    color: #fff;
+}
+
+/*---------------------------------------------------*/
