@@ -259,6 +259,8 @@ li a{ ;
 .item11{
     grid-column: 1;
     grid-row: 2;
+    padding: 20px;
+    text-align: justify;
 }
 .item12{
     grid-column: 3;

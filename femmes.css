@@ -68,14 +68,15 @@ body{
 }
 
 .container img{
-    
+ 
   max-width: 290px;  
   max-height: 280px;
 }
    
 /*----------------------------------------*/
 .item1{
-    
+    grid-column-start: 1;
+    grid-row-start: 1;  
     padding: 20px;
     text-align: center;
 
@@ -103,6 +104,8 @@ body{
 .item5{
     text-align: center;
     padding: 20px;
+    grid-column-start: 5;
+    grid-row-start: 1;
 }
 
 .item6{
