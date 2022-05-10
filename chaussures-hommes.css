@@ -17,8 +17,8 @@ body{
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
-    padding:20px;
-    /*background-color: rgba(210, 160, 14, .18);*/
+   
+    
     
     }
 
@@ -26,6 +26,7 @@ body{
 .bandeau{
     text-align: center;
     font-size: 2em;
+    width: 1900px;
     
 }
 
@@ -55,7 +56,7 @@ body{
     width: 100vh;
     display: grid;
     grid-template-columns: 400px 400px 400px 400px auto;
-    grid-template-rows: 324px 324px 230px;
+    grid-template-rows: 324px 324px 290px;
     padding: 20px;
 }
 
@@ -139,15 +140,16 @@ body{
     padding: 20px;
 }
 .item11{
-    grid-column-start: 1;
+    grid-column-start: 4;
+    grid-column-end: 6;
     grid-row-start: 3;
     text-align: center;
-    padding: 20px;
+    padding-left: 300px;
     background:#333;
 }
 
 .item12{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
@@ -155,7 +157,8 @@ body{
 }
 
 .item13{
-    grid-column-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
@@ -163,20 +166,16 @@ body{
 }
 
 .item14{
-    grid-column-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 3;
-    text-align: center;
+    text-align: left;
     padding: 20px;
+    padding-left: 120px;
     background: #333;
 }
 
-.item15{
-    grid-column-start: 5;
-    grid-row-start: 3;
-    text-align: center;
-    padding: 20px;
-    background: #333; 
-}
+
 
 /*-----------------------------------*/
 
@@ -193,6 +192,28 @@ body{
     color: #fff;
     
 }
+.produits{
+   text-align: left;
+}
+/*-------------------liste-----------------------------*/
+li a:hover{
+    background-color: grey;
+}
+
+
+ li{
+   
+   list-style: none;
+  
+}
+
+li a{ 
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 1.5rem;
+   
+}
+
 
 /*----------------itrem 12-----------------*/
 

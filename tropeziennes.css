@@ -16,8 +16,8 @@ body{
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
-    padding:20px;
-    /*background-color: rgba(210, 160, 14, .18);*/
+   
+    
     
     }
 
@@ -25,6 +25,8 @@ body{
 .bandeau{
     text-align: center;
     font-size: 2em;
+    width: 1880px;
+    
     
 }
 
@@ -52,10 +54,8 @@ body{
 .container{
     width: 100vh;
     display: grid;
-    grid-template-columns: 400px 400px 400px 400px auto;
-    grid-template-rows: 324px 324px 230px;
-    padding: 20px;
-    max-width: 1600px;
+    grid-template-columns: repeat(5 , 375px);
+    grid-template-rows: 324px 324px 290px;
     box-sizing: border-box;
 
 }
@@ -140,65 +140,85 @@ body{
     padding: 20px;
 }
 .item11{
-    grid-column-start: 1;
+    grid-column-start: 5;
+    grid-column-end: 6;
     grid-row-start: 3;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     background:#333;
 }
 
 .item12{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
     background: #333;
 }
 
-.item13{
-    grid-column-start: 3;
+/*.item13{
+    grid-column-start: 5;
+    grid-column-end: ;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
     background: #333;
-}
+}*/
 
 .item14{
-    grid-column-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
     background: #333;
 }
 
-.item15{
-    grid-column-start: 5;
-    grid-row-start: 3;
-    text-align: center;
-    padding: 20px;
-    background: #333; 
-}
 
+.item16{
+    grid-column-start: ;
+    grid-row-start: 3;
+}
 /*-----------------------------------*/
 
 
 .item11 h3{
     color: #fff;
+    text-align: left;
+    padding-left: 40px;
 }
 
 .item11  ul li{
     list-style: none;
     text-align: left;
+
 }
+
 .item11 ul li a{
     color: #fff;
+    text-align: left;
     
 }
+/*-----------------------------liste--------------------*/
+li a:hover{
+    background-color: grey;  
+}
+
+
+li a{ 
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 1.5rem;
+    
+}
+
 
 /*----------------itrem 12-----------------*/
 
 .item12 h3{
     color: #fff;
+    text-align: left;
+    padding-left: 40px;
 }
 .item12 ul li{
     list-style:none;

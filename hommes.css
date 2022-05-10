@@ -17,10 +17,8 @@ body{
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
-    padding-right: 20px;
-    padding-left: ;
-    max-width: 1600px;
     box-sizing: border-box;
+    padding-right: 15px;
    
     
     }
@@ -29,6 +27,7 @@ body{
 .bandeau{
     text-align: center;
     font-size: 2em;
+    width: 1880px;
     
 }
 
@@ -57,9 +56,9 @@ body{
 .container{
     width: 100vh;
     display: grid;
-    grid-template-columns: 400px 400px 400px 400px auto;
-    grid-template-rows: 324px 324px 230px;
-    padding: 20px;
+    grid-template-columns: repeat(5, 372px);
+    grid-template-rows: 324px 324px 280px;
+   
 }
 
 .container img{
@@ -142,7 +141,7 @@ body{
     padding: 20px;
 }
 .item11{
-    grid-column-start: 1;
+    grid-column-start: 5;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
@@ -150,7 +149,7 @@ body{
 }
 
 .item12{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
@@ -166,7 +165,8 @@ body{
 }
 
 .item14{
-    grid-column-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
@@ -174,18 +174,20 @@ body{
 }
 
 .item15{
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
     background: #333; 
 }
 
-/*-----------------------------------*/
+/*-----------------item 11------------------*/
 
 
 .item11 h3{
     color: #fff;
+    text-align: left;
+    padding-left: 35px;
 }
 
 .item11  ul li{
@@ -196,11 +198,24 @@ body{
     color: #fff;
     
 }
+li a:hover{
+    background-color: grey;
+    
+}
+
+li a{ 
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 1.5rem;
+    
+}
+
 
 /*----------------itrem 12-----------------*/
 
 .item12 h3{
     color: #fff;
+    text-align: left;
 }
 .item12 ul li{
     list-style:none;
@@ -208,6 +223,9 @@ body{
 }
 .item12 ul li a{
     color: #fff;
+}
+.item12 ul{
+    padding: 0px;
 }
 
 /*------------------------item 14 ----------------*/
