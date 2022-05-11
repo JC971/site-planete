@@ -392,132 +392,20 @@ text-decoration: none;
 .item19 h3{
     color: #fff;
 }
-/*------------------------------------------------------------------*/
-/*footer{
-    background-color:bisque;
-    margin: auto;
-    color: black;
+/*----------------------------medias --------------------------------------*/
+
+@media screen and (max-width: 1440px){
    
-}
-
-.brand{
-    grid-column-start: 4;
-    padding: 2rem;
-    display: inline;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    border-top: 2px solid rgb(210, 160, 14);
-    grid-row-start: 4;
-    
-}
-input [type = text]{
-    padding: 8px 10px;
-    background-color: rgb(22, 19, 19);
-    border:1px solid #ccc;
-    outline: none;
-    color-interpolation-filters: white;
-}
-.btn{
-color:black;
-background-color: #ccc;
-outline: none;
-border:none;
-padding: 9px 25px;
-border-radius: 14px;
-font-size: 14px;
-font-weight: 600;
-}
-.btn:hover{
-    background-color: rgb(210, 160, 14);
-}
-p{
-    opacity: 0.9;
-    margin-top: 10px;
-}
-
-.shop-name{
-grid-column-start: 3;
-grid-row-start: 3;
-display: inline;
-}
-
-.categorie{
-    grid-column-start: 4;
-    grid-row-start: 4;
-    padding: 2rem;
-    display: inline;
-    text-decoration: none;
-}
-.top-marques{
-grid-column-start: 4;
-grid-row-start: 4
-;
-}
-.confidentialite{
-    grid-row-start: 3;
-    
-    
-}
-.social{
-    grid-row-start: 2;
-    padding: 2rem;
-    justify-content: space-between;
-    border-top: 2px solid rgb(210, 160, 14);
-    grid-row-start: 4;
-    grid-column-start: 3;
-    border: 3px solid black;
-}
-
-/*-------------------------------div-------------------------*/
-
-/*-----------------------------------------newfooter---------------------*/
-/*
-.brand{
-    grid-column-start:4 ;
-    grid-row-start: 4;
-
-}
-
-footer{
-position:start;
-width: 100%;
-background: lightgrey;
-}
-.main-content{
-    display: flex;
-}
-.main-content .box{
-    flex-basis: 50%;
-    padding: 10px 20px;
-}
-.box h2{
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.box .content{
-    margin: 20px 0 0 0;
-}
-
-.left .content p{
-    text-align: justify;
-}
-
-.left .content .social{
-margin: 20px 0 0 0;
-}
-.left .content .social a span{
-    height: 40px;
-    width: 40px;
-    background: 1a1a1a;
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.left .content .social a span:hover{
-    background: white;
+    .container{
+        width: 100vh;
+        display: grid;
+        grid-template-columns: repeat(6, 220px);
+        grid-auto-flow: dense;
+        grid-template-rows: auto  auto auto 260px;
+        height: 100vh;
+        padding: 20px; 
+        box-sizing: border-box;
+       
+        
+    }
 }
