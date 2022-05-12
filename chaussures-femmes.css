@@ -11,14 +11,13 @@
 
 body{
     background: url()no-repeat 50% 50% ;
-    
     background-size:cover;
     font-family: 'Pridi', serif;
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
   
-    /*background-color: rgba(210, 160, 14, .18);*/
+    
     
     }
 
@@ -53,11 +52,10 @@ body{
 /*-------------------------contenu---------------------------*/
 
 .container{
-    width: 100vh;
+    width: 100%;
     display: grid;
-    grid-template-columns: 372px 372px 372px 372px 372px;
+    grid-template-columns:repeat(5 , 1fr);
     grid-template-rows: 324px 324px 290px;
-    padding: 20px;
     box-sizing: border-box;
 }
 

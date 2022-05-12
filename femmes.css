@@ -255,3 +255,13 @@ padding-left: 20px;
 .item16 h3 {
     color: #fff;
 }
+
+
+/*------------------------------media--------------------------------------*/
+
+@media screen and (max-width: 1600px){
+    .bandeau img{
+        width: 100%;
+        max-width: 1600px
+    }
+}

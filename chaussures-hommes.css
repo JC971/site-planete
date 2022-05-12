@@ -11,7 +11,6 @@
 
 body{
     background: url()no-repeat 50% 50% ;
-    
     background-size:cover;
     font-family: 'Pridi', serif;
     height: 100vh;
@@ -53,11 +52,11 @@ body{
 /*-------------------------contenu---------------------------*/
 
 .container{
-    width: 100vh;
+    width: 100%;
     display: grid;
-    grid-template-columns: 400px 400px 400px 400px auto;
+    grid-template-columns: repeat(5 , 1fr);
     grid-template-rows: 324px 324px 290px;
-    padding: 20px;
+  
 }
 
 .container img{
@@ -234,4 +233,11 @@ li a{
     color: #fff;
 }
 
-/*---------------------------------------------------*/
+/*---------------------media------------------------------*/
+
+@media screen and (max-width: 1600px){
+    .bandeau img{
+        width: 100%;
+        max-width: 1600px;
+    }
+}

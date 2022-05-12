@@ -18,7 +18,7 @@ body{
     background-attachment: fixed;
     width: 100%;
     box-sizing: border-box;
-    padding-right: 15px;
+   
    
     
     }
@@ -27,7 +27,7 @@ body{
 .bandeau{
     text-align: center;
     font-size: 2em;
-    width: 1880px;
+    width: 1900px;
     
 }
 
@@ -54,9 +54,9 @@ body{
 /*-------------------------contenu---------------------------*/
 
 .container{
-    width: 100vh;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 372px);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 324px 324px 280px;
    
 }
@@ -234,4 +234,11 @@ li a{
     color: #fff;
 }
 
-/*---------------------------------------------------*/
+/*----------------------media-----------------------------*/
+
+@media screen and (max-width: 1600px){
+    .bandeau img{
+        width: 100%;
+        max-width: 1600px;
+    }
+}
