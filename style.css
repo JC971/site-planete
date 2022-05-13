@@ -22,9 +22,9 @@ body{
 
 /*----------------------nav bar-------------------------*/
 .bandeau{
-    text-align: center;
+    text-align: left;
     font-size: 2em;
-    width: 100%;
+    width: 1900px;
     
     box-sizing: border-box;
     background-size: cover;
@@ -410,6 +410,12 @@ text-decoration: none;
     }
 }
 
-@media screen and {
+@media screen and (max-width: 1460) {
+    .bandeau img{
+
+
     
+      
+        
+}
 }

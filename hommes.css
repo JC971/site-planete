@@ -25,7 +25,7 @@ body{
 
 /*----------------------nav bar-------------------------*/
 .bandeau{
-    text-align: center;
+    text-align: left;
     font-size: 2em;
     width: 1900px;
     
@@ -240,5 +240,15 @@ li a{
     .bandeau img{
         width: 100%;
         max-width: 1600px;
+        
+    }
+    .container{
+       
+        grid-template-columns: repeat(5, 1fr);
+       
+      
+      
+       
+        
     }
 }
