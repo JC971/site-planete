@@ -83,6 +83,8 @@ body{
     padding: 20px;
     text-align: center;
 }
+
+
 .item3{
     grid-column-start: 3;
     grid-row-start: 1;
@@ -139,12 +141,11 @@ body{
     padding: 20px;
 }
 .item11{
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 5;
     grid-row-start: 3;
     text-align: center;
-    padding-left: 300px;
     background:#333;
+    padding: 0 50px;
 }
 
 .item12{
@@ -157,7 +158,7 @@ body{
 
 .item13{
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 5;
     grid-row-start: 3;
     text-align: center;
     padding: 20px;
@@ -178,6 +179,14 @@ body{
 
 /*-----------------------------------*/
 
+.item2 img:hover{
+    transform: scale(2);
+
+}
+.item4 img:hover{
+    transform: scale(2);
+}
+
 
 .item11 h3{
     color: #fff;
@@ -191,6 +200,8 @@ body{
     color: #fff;
     
 }
+
+
 .produits{
    text-align: left;
 }

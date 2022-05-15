@@ -217,6 +217,11 @@ li a{
 }
 
 /*------------------------------------------------------------------*/
+.item8 img:hover{
+    transform: scale(2);
+
+}
+
 .item13 h3{
     color: #fff;
     padding-left: 40px;
