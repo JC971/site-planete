@@ -252,3 +252,97 @@ li a{
         
     }
 }
+/*------------------media 1440----------*/
+
+@media screen and (max-width: 1440px) {
+    .bandeau img{
+        max-width: 1500px;
+        border: 5px solid white;
+       
+      
+     
+}
+    .container{
+        box-sizing: border-box;
+        width: 1460px;
+        grid-template-columns: repeat( 5, 1fr);
+        width: 100%;
+        padding:0px;
+        
+   
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+    .bandeau img{
+        max-width: 1024px;
+        
+       
+}
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+               
+}
+.horraires{
+    text-align: center;
+    color: rgb(210, 160, 14);
+    font-weight: 800;
+    text-shadow: 1px 1px 1px black;
+    width: 1024px;
+    
+  }
+  .slogan{
+      width: 1800px;
+  }
+  
+  
+  .slider img{
+      width: 750px;
+  }
+  .slogan{
+      display: none;
+  }
+  .item5{
+      display: none;
+  }
+  .item10{
+      display: none;
+  }
+  .item15{
+      display: none;
+  }
+  .item11{
+      grid-column-start: 4;
+  }
+  .item9{
+      padding: 10px;
+  }
+  .item8{
+      padding: 10px;
+  }
+  .item7{
+    padding: 10px;
+  }
+  .item6{
+    padding: 10px;
+  }
+  .item4{
+    padding: 10px;
+  }
+  .item3{
+    padding: 10px;
+  }
+  .item2{
+    padding: 10px;
+  }
+  .item1{
+    padding: 10px;
+  }
+}

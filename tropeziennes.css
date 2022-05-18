@@ -247,6 +247,169 @@ li a{
         text-align: left;
     }
     .container{
-        grid-template-columns: repeat(6 , 1fr);
+        grid-template-columns: repeat(5, 1fr);
+
     }
 }
+
+
+/*------------------media 1440----------*/
+
+@media screen and (max-width: 1440px) {
+    .bandeau img{
+        max-width: 1440px;
+        border: 5px solid white;
+       
+      
+     
+}
+    .container{
+        box-sizing: border-box;
+        width: 1460px;
+        grid-template-columns: repeat(5 , 1fr);
+        width: 100%;
+        padding:0px;
+        
+   
+}
+
+}
+
+
+
+/*---------------media 1280------------*/
+@media screen and (max-width: 1280px) {
+    .bandeau img{
+        max-width: 1280px;  
+}
+}
+
+/*---------------media 1200------------*/
+@media screen and (max-width: 1200px) {
+    .bandeau img{
+        max-width: 1200px;
+       
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    max-width: 1200px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.item5{
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.item11{
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+
+.item12{
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+.item14{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+}
+
+/*---------------media 1110------------*/
+@media screen and (max-width: 1110px) {
+    .bandeau img{
+        max-width: 1110px;
+        
+       
+}
+.container{
+    grid-template-columns: repeat(4 , 1fr);
+   
+}
+}
+/*------------------------media 1024--------------*/
+
+@media screen and (max-width: 1024px) {
+    .bandeau img{
+        max-width: 1024px;
+        
+       
+}
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        box-sizing: border-box;
+        width: 100%;
+               
+}
+
+
+
+
+.horraires{
+  text-align: center;
+  color: rgb(210, 160, 14);
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+  width: 1024px;
+  
+}
+.slogan{
+    width: 1800px;
+}
+
+
+.slider img{
+    width: 750px;
+}
+.slogan{
+    display: none;
+}
+.item1{
+    padding: 10px;
+}
+.item2{
+    padding: 10px;
+}
+.item3{
+    padding: 10px;
+}
+.item4{
+    padding: 10px;
+}
+.item5{
+    padding: 10px;
+}
+.item6{
+    padding: 10px;
+}
+.item7{
+    padding: 10px;
+}
+.item8{
+    padding: 10px;
+}
+.item11{
+    
+        padding: 10px;
+    }
+ .item12{
+    
+        padding: 10px;
+    }
+    .item10{
+        display: none;
+    }
+    
+}
+
+    
