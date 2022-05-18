@@ -339,8 +339,7 @@ li a{
 @media screen and (max-width: 1024px) {
     .bandeau img{
         max-width: 1024px;
-        
-       
+            
 }
 
     .container{
@@ -351,9 +350,6 @@ li a{
         width: 100%;
                
 }
-
-
-
 
 .horraires{
   text-align: center;

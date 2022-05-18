@@ -560,11 +560,146 @@ grid-row-start: 1;
     padding-left: 380px;
     
 }
+.container{
+    grid-template-columns: repeat(3 , 1fr);
+  
+}
+
+.bandeau img{
+    max-width: 768px;
+}
+.horraires{
+    padding: 0;
+    text-align: center;
+
+}
 
 
 .slider{
-   padding-left: 500px;
+   
+   width: auto;
+   text-align: center;
+}
+/* --------------item 2------------------------- */
+.item2{
+    display: none;
+    
+}
+/* ---------------item 4 ------------------------*/
+.item4{
+    display: none;
+}
+/* --------------------item 5 ---------------------*/
+.item5{
+    grid-column-start: 2;
+}
+/*----------------------------- item 8 -------------------*/
+.item8{
+    display: none;
+}
+
+/* --------------------------item 9----------------------------- */
+.item9 h3{
+font-size: 14px;
+}
+.item9 ul li{
+    font-size: 12px;
+}
+/*--------------------------------- item 10 ----------------------*/
+.item10{
+    grid-column-start: 3;
+}
+.item10 h3{
+    font-size: 14px;
+}
+.item10  ul li{
+font-size: 12px;
+}
+/*------------------------------ item 14--------------------------- */
+.item14{
+    display: none;
+}
+/* ---------------------------item 16 --------------------------------*/
+.item16{
    
 }
+/* -------------------------------item 19------------------------------ */
+.item19{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.item19 h3{
+    font-size: 12px;
+}
+/*-------------------------------------- item 20---------------------------- */
+.item20{
+    display: none;
+}
+    
+}
+@media screen and (max-width: 600px)
+{
+    .slider{
+        display: none;
+    }
+    .bandeau img{
+        max-width: 600px;
+    }
+    .horraires{
+        width: 600px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 800;
+
+
+    }
+
+    .container{
+        grid-template-columns: repeat(2 , 1fr);
+        width: 600px;
+        grid-template-rows: repeat(3 , 1fr);
+
+    }
+    .item2{
+        display: grid;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    
+
+    .item3{
+        display: none;
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+.item6{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+    .item9{
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .item10{
+        grid-column-start: 1;
+        grid-row-start 4;
+    }
+    .item11{
+        display: none;
+    }
+.item12{
+    display: none;
+}
+
+    .item16{
+        display: none;
+    }
+    .item19{
+        display: none;
+    }
     
 }

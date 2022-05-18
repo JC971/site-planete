@@ -234,7 +234,7 @@ li a{
     color: #fff;
 }
 
-/*----------------------media-----------------------------*/
+/*----------------------media-----1600px------------------------*/
 
 @media screen and (max-width: 1600px){
     .bandeau img{
@@ -273,7 +273,7 @@ li a{
 }
 
 }
-
+/*------------------media 1024px----------*/
 @media screen and (max-width: 1024px) {
     .bandeau img{
         max-width: 1024px;
