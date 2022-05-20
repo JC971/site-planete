@@ -478,6 +478,10 @@ text-decoration: none;
     grid-row-start: 2;
     grid-column-start: 4;
     grid-column-end: 4;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 15;
 }
 .item5{
 grid-column-start: 4;
@@ -551,8 +555,6 @@ grid-row-start: 1;
 }
 
 
-
-
 /*----------------media 768-----------*/
 @media screen  and (max-width: 768px){
 .horraires{
@@ -580,32 +582,33 @@ grid-row-start: 1;
    width: auto;
    text-align: center;
 }
-/* --------------item 2------------------------- */
+/* -item 2-- */
+
 .item2{
     display: none;
     
 }
-/* ---------------item 4 ------------------------*/
+/* ---item 4 -*/
 .item4{
     display: none;
 }
-/* --------------------item 5 ---------------------*/
+/* ----item 5 --*/
 .item5{
     grid-column-start: 2;
 }
-/*----------------------------- item 8 -------------------*/
+/*---- item 8 --*/
 .item8{
     display: none;
 }
 
-/* --------------------------item 9----------------------------- */
+/* ---item 9---- */
 .item9 h3{
 font-size: 14px;
 }
 .item9 ul li{
     font-size: 12px;
 }
-/*--------------------------------- item 10 ----------------------*/
+/*--- item 10 -----*/
 .item10{
     grid-column-start: 3;
 }
@@ -615,15 +618,15 @@ font-size: 14px;
 .item10  ul li{
 font-size: 12px;
 }
-/*------------------------------ item 14--------------------------- */
+/*---- item 14----- */
 .item14{
     display: none;
 }
-/* ---------------------------item 16 --------------------------------*/
+/* ----item 16 -----*/
 .item16{
    
 }
-/* -------------------------------item 19------------------------------ */
+/* ----item 19---- */
 .item19{
     grid-column-start: 2;
     grid-column-end: 2;
@@ -632,11 +635,11 @@ font-size: 12px;
 .item19 h3{
     font-size: 12px;
 }
-/*-------------------------------------- item 20---------------------------- */
+/*------- item 20----- */
 .item20{
     display: none;
 }
-    
+    /*---------------media 600px-------------------*/
 }
 @media screen and (max-width: 600px)
 {
@@ -702,4 +705,112 @@ font-size: 12px;
         display: none;
     }
     
+}
+
+/*-----------------media 510px------------*/
+@media screen and (max-width: 510px)
+{
+   
+    .bandeau img{
+        max-width: 510px;
+    }
+    .horraires{
+        width: 510px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 800;
+
+    }
+
+    .container{
+    max-width: 510px;
+}
+
+}
+
+/*-----------------media 320px------------*/
+@media screen and (max-width: 320px)
+{
+   
+    .bandeau img{
+        max-width: 320px;
+    }
+    .horraires{
+        width: 320px;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 800;
+
+    }
+
+    .container{
+    max-width: 320px;
+    grid-template-columns: 160px 160px;
+    grid-template-rows:repeat(4 , 1fr);
+    grid-template-rows: 180px 180px 280px 200px;
+}
+.container img{
+    max-width: 150px;
+   max-height:150px;
+    padding: 10px;
+}
+
+.item2{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+
+.item3{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.item5{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+  
+}
+.item6{
+display: grid;
+grid-column-start: 1;
+grid-row-start: 2;
+}
+
+.item9{
+    display: grid;
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+
+.item9 h3{
+    font-size: 14px;
+    text-align: left;
+    padding: 0;
+}
+/*-----------------item 10----------------------*/
+.item10{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start 3;
+    padding: 20px;
+      
+}
+.item10 ul{
+    padding: 0;
+}
+.articles{
+    text-align: left;
+  
+}
+
+
+.produits  li{
+    text-align: left;
+    padding: 0px;
+}
+
+
 }

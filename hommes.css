@@ -28,7 +28,9 @@ body{
     text-align: left;
     font-size: 2em;
     width: 1900px;
-    
+    box-sizing: border-box;
+    background-size: cover;
+  
 }
 
 .slogan{
@@ -50,7 +52,7 @@ body{
     text-align: center;
 }
 
-/*-------------------------contenu---------------------------*/
+
 /*-------------------------contenu---------------------------*/
 
 .container{
@@ -257,10 +259,9 @@ li a{
 @media screen and (max-width: 1440px) {
     .bandeau img{
         max-width: 1500px;
-        border: 5px solid white;
+        
        
-      
-     
+       
 }
     .container{
         box-sizing: border-box;
@@ -269,10 +270,60 @@ li a{
         width: 100%;
         padding:0px;
         
-   
+}
+}
+/*------------------media 1390----------*/
+
+@media screen and (max-width: 1390px) {
+    .bandeau img{
+        max-width: 1390px;
+        border: 5px solid white;
+     
+       
+}
+}
+
+/*------------------media 1200px----------*/
+
+@media screen and (max-width: 1200px) {
+    .bandeau img{
+        max-width: 1200px;
+        
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+           
+}
+.item5{
+    display: none;
+}
+.item10{
+    display: none;
+}
+.item11{
+    grid-column-start: 4;
+}
+
+.item15{
+    display: none;
 }
 
 }
+
+
+/*------------------media 1120px----------*/
+@media screen and (max-width: 1120px) {
+    .bandeau img{
+        max-width: 1120px;
+        
+}
+}
+
 /*------------------media 1024px----------*/
 @media screen and (max-width: 1024px) {
     .bandeau img{
@@ -299,7 +350,12 @@ li a{
     
   }
   .slogan{
-      width: 1800px;
+      width: 1024px;
+     
+  }
+
+  .plaisir{
+     colo;
   }
   
   
@@ -346,3 +402,186 @@ li a{
     padding: 10px;
   }
 }
+  /*------------------media 768px----------*/
+
+@media screen and (max-width: 768px) {
+    .bandeau img{
+        max-width: 768px;
+        
+}
+.horraires{
+    width: 768px;
+   
+}
+.item4{
+    display: none;
+}
+.item9{
+    display: none;
+}
+.item11{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+.articles{
+    font-size: 14px;
+}
+.item12 h3{
+    font-size: 14px;
+
+}
+
+.item13{
+    display: none;
+}
+.item14{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.item14 h3{
+    font-size: 14px;
+}
+
+}
+
+ /*------------------media 600px----------*/
+ @media screen and (max-width: 600px) {
+ .bandeau img{
+    max-width: 600px;
+}
+
+.horraires{
+    width: 600px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+.container{
+    display: grid;
+    max-width: 600px;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.item3{
+    display: none;
+}
+.item8{
+    display: none;
+}
+.item11{
+    
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.item11 h3{
+    font-size: 14px;
+}
+.item12{
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.item12 h3{
+    font-size: 12px;
+}
+
+.item14{
+  
+    grid-row-start: 4;
+    background-color: #fff;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    padding-top: 0;
+   
+    
+}
+.item14 h3{
+    color: #333;
+    font-size: 12px;
+}
+ }
+
+ /*------------------media 320px----------*/
+
+ @media screen and (max-width: 320px) {
+    
+    .bandeau img{
+       max-width: 320px;
+   }
+
+   .horraires{
+    width: 300px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 0;
+}
+
+   .container{
+       grid-template-columns: 160px 160px;
+       grid-template-rows: 180px 180px 250px 200px 100px;
+       max-width: 320px;
+   }
+
+   .container img{
+    max-width: 160px;
+    max-height:160px;
+   
+}
+    .item1{
+        padding: 0;
+  
+}
+    .item2{
+        padding: 0;
+}
+
+   .item7{
+       grid-row-start: 2;
+       grid-column-start: 2;
+   }
+
+   .item11{
+       grid-row: 3;
+       grid-column: 1;
+       padding: 0;
+       text-align: left;
+
+   }
+   .item11 h3{
+       font-size:12px;
+       text-align: left;
+       grid-row-start: 3;
+   }
+   .item11 ul li{
+       font-size: 14px;
+   }
+   .item11 ul{
+       text-align: left;
+       padding: 0;
+
+   }
+
+   .item12{
+       grid-row: 3;
+       padding: 0;
+   }
+   .item12 h3{
+       font-size: 12px;
+   }
+   .item12 ul li{
+       font-size: 12px;
+   }
+
+   .item14{
+       grid-row: 4;
+       grid-column: 1;
+       grid-column: span 2;
+       
+
+   }
+   .item14 h3{
+       font-size: 10px;
+       padding: 0 10px;
+   }
+   
+
+ }
