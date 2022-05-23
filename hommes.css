@@ -297,6 +297,7 @@ li a{
     box-sizing: border-box;
     width: 100%;
     padding: 0;
+    width: 1200px;
            
 }
 .item5{
@@ -322,6 +323,15 @@ li a{
         max-width: 1120px;
         
 }
+.container{
+    max-width: 1120px;
+}
+.slogan{
+    font-size: larger;
+}
+.item14 h3{
+font-size: medium;
+}
 }
 
 /*------------------media 1024px----------*/
@@ -335,10 +345,11 @@ li a{
     .container{
         display: grid;
         grid-template-columns: repeat(4 , 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         box-sizing: border-box;
         width: 100%;
         padding: 0;
+        max-width: 1024px;
                
 }
 .horraires{
@@ -351,6 +362,7 @@ li a{
   }
   .slogan{
       width: 1024px;
+      font-size:medium;
      
   }
 
@@ -362,9 +374,7 @@ li a{
   .slider img{
       width: 750px;
   }
-  .slogan{
-      display: none;
-  }
+  
   .item5{
       display: none;
   }
@@ -413,6 +423,11 @@ li a{
     width: 768px;
    
 }
+
+.slogan{
+    font-size: small;
+    max-width: 768px;
+}
 .item4{
     display: none;
 }
@@ -437,9 +452,10 @@ li a{
 .item14{
     grid-column-start: 2;
     grid-column-end: 3;
+    
 }
 .item14 h3{
-    font-size: 14px;
+    font-size: small;
 }
 
 }
@@ -460,24 +476,35 @@ li a{
     display: grid;
     max-width: 600px;
     grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(4 , 1fr );
+}
+
+.slogan{
+    font-size: x-small;
+    max-width: 600px;
 }
 .item3{
-    display: none;
+    
+    grid-row: 3;
+    grid-column: 1;
 }
 .item8{
-    display: none;
+   
+    grid-row: 3;
+    grid-column: 2;
 }
 .item11{
     
-    grid-column-start: 1;
-    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-row-start: 4;
 }
+
 .item11 h3{
     font-size: 14px;
 }
 .item12{
-    grid-row-start: 3;
-    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-column-start: 1;
 }
 .item12 h3{
     font-size: 12px;
@@ -487,9 +514,9 @@ li a{
   
     grid-row-start: 4;
     background-color: #fff;
-    grid-row-start: 4;
-    grid-column-start: 1;
-    padding-top: 0;
+    grid-row-start: 5;
+    grid-column: 1 /span 2;
+ 
    
     
 }
@@ -499,27 +526,35 @@ li a{
 }
  }
 
- /*------------------media 320px----------*/
+ /*------------------media 390px----------*/
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 390px) {
     
     .bandeau img{
-       max-width: 320px;
+       max-width: 390px;
    }
 
    .horraires{
-    width: 300px;
+    width: 390px;
     text-align: center;
     font-size: 9px;
     font-weight: 800;
     padding: 0;
+   
 }
 
    .container{
-       grid-template-columns: 160px 160px;
-       grid-template-rows: 180px 180px 250px 200px 100px;
-       max-width: 320px;
+       grid-template-columns: repeat(2 , 1fr)
+       grid-template-rows: repeat(7 , 1 fr) ;
+       max-width: 390px;
+       box-sizing: border-box;
+        
    }
+
+  .slogan{
+      max-width: 350px;
+      
+  }
 
    .container img{
     max-width: 160px;
@@ -533,6 +568,10 @@ li a{
     .item2{
         padding: 0;
 }
+.item3{
+    grid-row-start: 3;
+    grid-column: 1;
+}
 
    .item7{
        grid-row-start: 2;
@@ -540,48 +579,107 @@ li a{
    }
 
    .item11{
-       grid-row: 3;
+       grid-row: 4;
        grid-column: 1;
+       grid-column: span 2;
        padding: 0;
        text-align: left;
 
    }
+  
+
+
    .item11 h3{
        font-size:12px;
        text-align: left;
-       grid-row-start: 3;
+       grid-row-start: 5;
+       padding:5px 0px 0px 20px;
+       font-weight: 800;
    }
+
+
    .item11 ul li{
-       font-size: 14px;
+       font-size: 12px;
+     
    }
+
+
    .item11 ul{
        text-align: left;
-       padding: 0;
+       padding:  0 0 0 10px;
 
    }
 
    .item12{
-       grid-row: 3;
+       grid-row: 6;
+       grid-column: 1;
+       grid-column: span 2;
        padding: 0;
    }
    .item12 h3{
-       font-size: 12px;
+       font-size: 14px;
+       font-weight: 800;
+       padding: 20px;
    }
    .item12 ul li{
        font-size: 12px;
    }
+   .item12 ul{
+    padding:  0 0 0 10px;
+   }
 
    .item14{
-       grid-row: 4;
+       grid-row: 45;
        grid-column: 1;
        grid-column: span 2;
        
-
    }
+
    .item14 h3{
        font-size: 10px;
        padding: 0 10px;
+       font-weight: 800;
    }
    
+   .item14{
+    padding:  0 0 0 10px;
+    grid-row: 7;
+   }
+   
+ }
+ /*---------------320-------------------------*/
 
+ @media screen and (max-width: 320px) {
+     .bandeau img{
+max-width: 320px
+     }
+     .slogan{
+         max-width: 320px;
+         padding: 0 0 15px 0;
+     }
+     .horraires{
+         max-width: 320px;
+         text-align: center;
+     }
+     .item14{
+         font-size: xx-small;
+     }
+     .item1{
+         padding: 15px;
+     }
+     .item2{
+         padding: 15px;
+     }
+     .item3{
+         padding: 15px;
+     }
+     .item6{
+         padding: 15px;
+     }
+     .item7{
+         padding: 15px;
+     }
+     .item8{
+         padding: 15px;
+     }
  }
