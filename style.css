@@ -521,11 +521,10 @@ text-decoration: none;
     }
 
     
-    
     .bandeau img{
-        max-width: 1024px;
-             
+        max-width: 1024px;         
 }
+
 }
     .container{
         display: grid;
@@ -533,13 +532,19 @@ text-decoration: none;
         grid-template-rows: repeat(4, 1fr);
         box-sizing: border-box;
         width: 100%;
-        max-width: 1024px;
-        
-               
+        max-width: 1024px;         
 }
+
+ .titre{
+    font-size: smaller;
+    font-weight: 600;
+}
+
+
 .item3{
     padding: 0;
 }
+
 
 .item4{
     
@@ -551,9 +556,17 @@ text-decoration: none;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 15;
 }
+
+.item4 p{
+    font-size: smaller;
+    font-weight: 600;
+}
+
+
 .item5{
 grid-column-start: 4;
 grid-row-start: 1;
+
 }
     
 
@@ -570,15 +583,31 @@ padding: 0px;
    grid-column-start: 1;
    grid-row-start: 4;
 }
+
+.item9 h3{
+font-size: smaller;
+}
+
 .item10{
     grid-row-start: 4;
     grid-column-start: 4;
 }
-
+.item10 .articles{
+    font-size: small
+}
 .titre{
     display: ;
 }
 
+.item11 p{
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.item12{
+    font-size: smaller;
+    font-weight: 600;
+}
 
 .item13{
     grid-row-start: 3;
@@ -590,10 +619,19 @@ padding: 0px;
     grid-row: 2;
     text-align: justify;
 }
+.item16  p{
+   font-size: smaller;
+   font-weight: 600;
+}
+
 .item17{
     grid-row-start: 3;
     grid-column: 2 /span 2;
     
+}
+.item17 p{
+   font-size: smaller;
+   font-weight: 600;
 }
 
 .item19{
@@ -601,6 +639,10 @@ padding: 0px;
     grid-column-start: 2;
     grid-column-end: 4;
     
+}
+
+.item19 h3{
+    font-size: smaller;
 }
 
 .horraires{
