@@ -12,9 +12,11 @@
 body{
     
     font-family: 'Pridi', serif;
-    background-attachment: fixed;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    
+   
     
     
     }
@@ -59,7 +61,7 @@ body{
     width: 100vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto  auto auto 260px;
+    grid-template-rows: auto  auto auto;
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
@@ -383,21 +385,34 @@ text-decoration: none;
 }
 /*----------------------------medias ----1600----------------------------------*/
 
-@media screen and (max-width: 1600px){
+@media screen  (max-width: 1600px){
    
     .container{
        
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr) 350px;
+        grid-template-rows: 1fr 1fr 1fr;
         padding: 10px;
-           
+        width: 100%;
+        padding: 0;
+        width: 1600px;
+        
     }
+
+.container img{
+    .container img{
+    
+        max-width: 450px;  
+        max-height: 280px;
+        
+      }
+}
+
+
     .bandeau img{
         
-        
+        max-width: 1600px;
         width: 100%;
-        max-width:1600px;
-        text-align: center;
-      
+       
         
     }
     .slider img{
@@ -409,18 +424,27 @@ text-decoration: none;
 /*------------------media 1440----------*/
 
 @media screen and (max-width: 1440px) {
-    .bandeau img{
-        max-width: 1440px;
-        border: 5px solid white;
+    
+ 
        
+     .bandeau{
+         max-width: 1440px;
+         height: ;
+     }
+     .bandeau img{
+         width: 1480px;
+     }
+       
+         
       
      
 }
     .container{
         box-sizing: border-box;
-        width: 1440px;
+        width: 14400px;
         grid-template-columns: repeat(6 , 1fr);
         width: 100%;
+       
        
         
    
@@ -428,7 +452,7 @@ text-decoration: none;
 
 }
 
-/*---------------media 1280------------*/
+/*---------------media 1280------------
 @media screen and (max-width: 1280px) {
     .bandeau img{
         max-width: 1280px;
@@ -444,9 +468,11 @@ text-decoration: none;
 }
 
 
-}
+}*/
 /*---------------media 1200------------*/
 @media screen and (max-width: 1200px) {
+
+
     .bandeau img{
         max-width: 1200px;
             
@@ -464,6 +490,10 @@ text-decoration: none;
 /*---------------media 1100------------*/
 
 @media screen and (max-width: 1100px) {
+
+    .bandeau{
+        max-width: 1100px;
+    }
     .bandeau img{
         max-width: 1100px;
             
@@ -485,6 +515,13 @@ text-decoration: none;
 /*------------------------media 1024--------------*/
 
 @media screen and (max-width: 1024px) {
+
+    .bandeau{
+        max-width: 1024px;
+    }
+
+    
+    
     .bandeau img{
         max-width: 1024px;
              
@@ -525,7 +562,7 @@ grid-row-start: 1;
  grid-row-start: 3;
  grid-column-start: 4;
  
-padding: 20px;
+padding: 0px;
     
 }
 
@@ -546,7 +583,7 @@ padding: 20px;
 .item13{
     grid-row-start: 3;
     grid-column-start: 1;
-  padding: 20px;
+    padding: 0px;
 }
 .item16{
     grid-column: 1;
@@ -556,7 +593,7 @@ padding: 20px;
 .item17{
     grid-row-start: 3;
     grid-column: 2 /span 2;
-    display: ;
+    
 }
 
 .item19{
@@ -574,10 +611,7 @@ padding: 20px;
   width: 1024px;
   
 }
-.slogan{
-   
-    
-}
+
 
 
 .slider img{
@@ -602,6 +636,10 @@ padding: 20px;
     grid-template-columns: repeat(3 , 1fr);
   
 }
+.bandeau{
+    max-width:768px;
+   
+}
 
 .bandeau img{
     max-width: 768px;
@@ -612,7 +650,7 @@ padding: 20px;
 
 }
 
-
+/*
 .slider{
    
    width: auto;
@@ -692,6 +730,9 @@ font-size: 12px;
 {
     .slider{
         display: none;
+    }
+    .bandeau{
+        max-width: 600px;
     }
     .bandeau img{
         max-width: 600px;
@@ -779,27 +820,24 @@ font-size: 12px;
 @media screen and (max-width: 320px)
 {
    
-    .bandeau img{
-        max-width: 320px;
-    }
-    .horraires{
-        width: 320px;
-        text-align: center;
-        font-size: 9px;
-        font-weight: 800;
+.bandeau{
+    max-width: 320px;
+    display: none;
+}
 
-    }
 
     .container{
-    max-width: 320px;
-    grid-template-columns: 160px 160px;
-    grid-template-rows:repeat(4 , 1fr);
-    grid-template-rows: 180px 180px 280px 200px;
+    grid-template-rows:repeat(3 , 1fr);
 }
+
 .container img{
-    max-width: 150px;
-   max-height:150px;
-    padding: 10px;
+    max-width: 160px;
+    height: auto;
+    padding: 30px;
+}
+
+.horraires{
+    font-size: larger;
 }
 
 .item2{
