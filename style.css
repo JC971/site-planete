@@ -847,6 +847,10 @@ font-size: 12px;
     .bandeau img{
         max-width: 510px;
     }
+    .bandeau{
+        width: 510px;
+    }
+
     .horraires{
         width: 510px;
         text-align: center;
@@ -863,7 +867,10 @@ font-size: 12px;
 
 
 .container img{
-    max-width: 250px;
+    max-width: 220px;
+}
+.item13{
+    padding: 0 0px 0 20px;
 }
 
 
@@ -894,12 +901,12 @@ font-size: 12px;
     
     
     justify-content: center;
-    max-width: 150px;
+    max-width: 130px;
       
 }
 
 .horraires{
-    text-align: center;
+    text-align: left;
     max-width: 390px;
 }
 
@@ -909,8 +916,6 @@ font-size: 12px;
     grid-row-start: 1;
   
 }
-
-
 
 
 .item3{
@@ -963,6 +968,14 @@ grid-row-start: 2;
     padding: 0px;
 }
 
+.item13{
+   padding: 60px 0 0 30px;
+
+}
+
+.item17{
+    
+}
 
 }
 
