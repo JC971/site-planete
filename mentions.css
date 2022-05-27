@@ -171,7 +171,7 @@ p{
 }
 /*----------------media 1600px----------*/
 
-@media screen and (max-width: 1600px){
+@media screen  (max-width: 1600px){
     .bandeau img{
         width: 100%;
         max-width: 1600px;
@@ -179,30 +179,42 @@ p{
 }
 /*----------------media 1480----------*/
 @media screen and (max-width: 1480px){
+
     .bandeau img{
-        width: 100%;
         max-width: 1480px;
     }
 }
 /*----------------media 1370----------*/
 @media screen and (max-width: 1370px){
+
+    .bandeau{
+        width: 1370px;
+    }
     .bandeau img{
-        width: 100%;
         max-width: 1370px;
     }
 }
 /*----------------media 1270----------*/
 @media screen and (max-width: 1270px){
+
     .bandeau img{
-        width: 100%;
+        
         max-width: 1270px;
+    }
+
+    .bandeau{
+        width: 1270px;
     }
 }
 /*----------------media 1180----------*/
 
 @media screen and (max-width: 1180px ){
+
+    .bandeau{
+       width: 1180px;
+    }
     .bandeau img{
-        width: 100%;
+        
         max-width: 1180px;
     }
 }
@@ -218,13 +230,17 @@ p{
 }
 /*----------------media 1024----------*/
 @media screen and (max-width: 1024px ){
+    .bandeau{
+        width: 1024px;
+    }
+
     .bandeau img{
         width: 100%;
         max-width: 1024px;
     }
 
 section .slogan{
-  color: red;
+  font-weight: 800;
   font-size: 18px;
 }
 .item1{
@@ -233,6 +249,9 @@ section .slogan{
 }
 /*----------------media 950----------*/
 @media screen and (max-width: 950px){
+    .bandeau{
+        width: 950px;
+    }
     .bandeau img{
         width: 100%;
         max-width: 950px;
@@ -240,6 +259,9 @@ section .slogan{
 }
 /*----------------media 885----------*/
 @media screen and (max-width: 885px){
+    .bandeau{
+        width: 885px;
+    }
     .bandeau img{
         width: 100%;
         max-width: 885px;
@@ -275,14 +297,17 @@ section .slogan{
 /*----------------media 768----------*/
 
 @media screen and (max-width: 768px){
+    .bandeau{
+        width: 768px;
+    }
     .bandeau img{
         width: 100%;
         max-width: 768px;
     }
 
     section .slogan{
-        color: red;
         font-size: 14px;
+        font-weight: 800px;
       }
 
     .item1 h3{
@@ -311,6 +336,9 @@ section .slogan{
 /*----------------media 600----------*/
 
 @media screen and (max-width: 600px){
+    .bandeau{
+        width: 600px;
+    }
     .bandeau img{
         width: 100%;
         max-width: 600px;
@@ -324,8 +352,8 @@ section .slogan{
    }
 
    .horraires{
-       color: red;
-       font-size: 16px;
+        color: ;
+        font-size: 16px;
    }
 
 
@@ -333,7 +361,11 @@ section .slogan{
        display: none;
 
    }
-}
+
+  
+
+
+  
 
 /*----------------media 320----------*/
 
@@ -372,4 +404,52 @@ section .slogan{
     }
     
 
+}
+
+@media screen and (max-width: 390px){
+    .bandeau{
+        width: 390px;
+    }
+    
+    .bandeau img{
+        width: 390px;
+    }
+
+    .horraires{
+        font-size: small;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+    .bandeau{
+        width: 320px;
+    }
+    
+    .bandeau img{
+        width: 320px;
+    }
+
+    .container{
+        grid-template-rows: 160px 260px;
+        
+    }
+
+.item1 ul{
+        font-size:;
+}
+
+.item2 h3{
+    display: none;
+}
+
+.item2 ul li{
+    font-size: xx-small
+}
+
+.item3{
+    display: none;
+}
 }
