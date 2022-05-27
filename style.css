@@ -884,6 +884,7 @@ font-size: 12px;
    
 .bandeau{
     max-width:390px;
+    text-align: center;
     
 }
 .bandeau img{
@@ -892,7 +893,7 @@ font-size: 12px;
 
 
     .container{
-    grid-template-rows:repeat(3 , 1fr);
+    grid-template-rows:repeat(4 , 1fr);
     grid-template-columns: repeat(2 , 1fr);
     max-width: 390px;
 }
@@ -901,7 +902,7 @@ font-size: 12px;
     
     
     justify-content: center;
-    max-width: 130px;
+    max-width: 120px;
       
 }
 
@@ -974,6 +975,7 @@ grid-row-start: 2;
 }
 
 .item17{
+    padding-right: 20px;
     
 }
 
