@@ -591,9 +591,100 @@ padding-left: 20px;
     grid-column: 4;
 }
 
+}
+
+/*------------------------------510--------------------------------------*/
+@media screen and (max-width: 510px)
+{
+    .bandeau{
+        max-width: 510px;
+    }
+
+    .bandeau img{
+        max-width: 510px;
+    }
+
+    .horraires{
+        max-width: 510px;
+        font-size: smaller;
+        font-weight: 800;
+    }
+
+    .slogan{
+        max-width: 510px;
+        font-size: xx-small;
+    }
+
+.container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8 , 1fr);
+    max-width: 510px;
+    
+}
+
+.container img{
+    max-width: 250px;
+    max-height: 190px;
+   
+}
+
+.item3{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.item4{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.item6{
+    grid-row: 5;
+    grid-column: 2;
+    display: bl;
+}
+
+.item7{
+    display: none;
+}
+
+.item11{
+    grid-row: 6;
+    grid-column: 1;
+}
+
+.item12{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.item13{
+    grid-row: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.item14{
+    grid-row: 7;
+    grid-column: 1;
+}
+
+.item16{
+    grid-row: 7;
+    grid-column: 2;
+}
+
+.item17{
+    grid-row: 6;
+    grid-column: 2;
+}
+
 
 
 }
+
+
 
 
 /*------------------------------390--------------------------------------*/
