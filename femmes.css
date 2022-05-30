@@ -482,7 +482,7 @@ padding-left: 20px;
 }
 
 .container img{
-    width: 110px;
+    width: 160px;
 }
 
 .bandeau{
@@ -882,7 +882,19 @@ padding-left: 20px;
 
 @media screen and (max-width: 320px)  {
 
-    .container{
-        width: 100%;
-    }
+   .bandeau{
+       width: 320px;
+   }
+
+   .bandeau img{
+       max-width: 320px;
+   }
+
+   .container{
+       width: 320px;
+   }
+
+   .horraires{
+       width: 320px;
+   }
 }
