@@ -535,6 +535,10 @@ text-decoration: none;
         max-width: 1024px;         
 }
 
+.container img{
+    
+}
+
  .titre{
     font-size: smaller;
     font-weight: 600;
@@ -675,11 +679,20 @@ font-size: smaller;
     
 }
 .container{
+    display: grid;
     grid-template-columns: repeat(3 , 1fr);
   
 }
+
+.container img{
+    max-width: 250px;
+}
+
+
+
 .bandeau{
     max-width:768px;
+    overflow: hidden;
    
 }
 
@@ -770,7 +783,6 @@ font-size: 12px;
     display: none;
 }
     /*---------------media 600px-------------------*/
-}
 @media screen and (max-width: 600px)
 {
     .slider{
@@ -780,23 +792,30 @@ font-size: 12px;
         max-width: 600px;
     }
     .bandeau img{
-        max-width: 600px;
+        max-width:600px;
     }
+
     .horraires{
         width: 600px;
         text-align: center;
         font-size: 16px;
         font-weight: 800;
 
-
     }
 
     .container{
+        display: grid;
         grid-template-columns: repeat(2 , 1fr);
         width: 600px;
         grid-template-rows: repeat(3 , 1fr);
 
     }
+
+    .container img{
+        width: 210px;
+        height: auto;
+    }
+
     .item2{
         display: grid;
         grid-column-start: 1;
@@ -837,18 +856,25 @@ font-size: 12px;
     .item19{
         display: none;
     }
+
+    .item13{
+        padding-left: 45px;
+    }
     
 }
+
 
 /*-----------------media 510px------------*/
 @media screen and (max-width: 510px)
 {
    .bandeau{
         width: 510px;
+        overflow-x: hidden;
     }
 
     .bandeau img{
         width: 100%;
+        width: 510px;
         text-align: center;
     }
     
@@ -863,16 +889,18 @@ font-size: 12px;
 
     .container{
     
+        display: grid;
         grid-template-columns: repeat(2 , 1fr);
         width:100%;
 }
 
 
     .container img{
-        width: 95%;
+        max-width: 190px;
 }
     .item13{
-        padding: 0 0px 0 20px;
+        padding-left: 30px;
+    
 }
 
 
