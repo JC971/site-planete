@@ -365,11 +365,16 @@ li a{
 
 .item10 h3{
     color: #fff;
+    text-align: left;
+    padding-left: 30px;
 }
 
 
 .item10 ul li a{
     text-align: left;
+    color: #fff;
+}
+.item10 ul li{
     color: #fff;
 }
 /*------------------------item 17------------------------*/
@@ -382,6 +387,7 @@ text-decoration: none;
 
 .item19 h3{
     color: #fff;
+    font-size: smaller;
 }
 /*----------------------------medias ----1600----------------------------------*/
 

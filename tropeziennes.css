@@ -296,6 +296,11 @@ li a{
 
 /*---------------media 1200------------*/
 @media screen and (max-width: 1200px) {
+
+.bandeau{
+    width: 1024px;
+}
+
     .bandeau img{
         max-width: 1200px;
        
@@ -305,7 +310,7 @@ li a{
     grid-template-columns: repeat(4 , 1fr);
     max-width: 1200px;
     box-sizing: border-box;
-    width: 100%;
+    width: 1200px;
 }
 
 .item5{
@@ -347,6 +352,11 @@ li a{
 /*------------------------media 1024--------------*/
 
 @media screen and (max-width: 1024px) {
+
+.bandeau{
+    width: 1024px;
+}
+
     .bandeau img{
         max-width: 1024px;
             
@@ -357,7 +367,7 @@ li a{
         grid-template-columns: repeat(4 , 1fr);
         grid-template-rows: repeat(3, 1fr);
         box-sizing: border-box;
-        width: 100%;
+        width: 1024px;
                
 }
 
@@ -482,6 +492,141 @@ li a{
 
 }
 
-/*------------------------media 768--------------*/
+/*------------------------media 425--------------*/
+
+@media screen and (max-width: 425px) {
+
+    .bandeau{
+        width: 425px;
+    }
+
+ .bandeau img{
+     max-width: 425px;
+ }
+
+ .horraires{
+     width: 425px;
+     font-size: smaller;
+ }
+
+ .container{
+     grid-template-columns: repeat(2 , 1 fr);
+     grid-template-rows: repeat(4 , 1fr) ;
+     width: 425px;
+ }
+
+ .container img{
+     width: 180px;
+ }
+
+ .item3{
+     grid-row: 4;
+     grid-column: 1;
+ }
+
+ .item5{
+     grid-row: 4;
+     grid-column: 2;
+ }
+
+ .item8{
+     display: none;
+ }
+
+ .item11{
+     grid-row: 6;
+     grid-column-start: 1;
+     grid-column-end: 3;
+     font-size: small;
+
+ }
+
+ .item12{
+     grid-row: 5;
+     font-size: small;
+ }
+
+ .item14{
+     grid-row: 5;
+     font-size: x-small;
+ }
+
+    
+}
+
+/*------------------------media 390--------------*/
+
+@media screen and (max-width: 390px) {
+
+.bandeau{
+    width: 390px;
+
+}
+
+.bandeau img{
+    max-width: 390px;
+}
+
+.horraires{
+    width: 390px;
+    font-size:smaller;
+}
+
+.container{
+    width: 390px;
+}
+
+.container img{
+    max-width: 160px;
+   
+}
+
+}
+
+/*------------------------media 320px--------------*/
+
+@media screen and (max-width: 320px) {
+
+.bandeau{
+    width: 320px;
+}
+
+.bandeau img{
+    max-width: 320px;
+}
+
+.horraires{
+    display: none;
+}
+
+.container{
+    width: 320px;
+}
+
+.container img{
+    max-width: 125px;
+}
+
+.item12{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item14{
+    grid-row: 7;
+    grid-column: 1/3;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
 
     
