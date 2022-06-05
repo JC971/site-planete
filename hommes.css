@@ -51,6 +51,12 @@ body{
     text-align: center;
 }
 
+h1{
+    color: rgb(210, 160, 14);
+    text-shadow: 1px 2px 2px black ;
+    text-align: center;
+}
+
 
 /*-------------------------contenu---------------------------*/
 
@@ -91,6 +97,7 @@ body{
     grid-row-start: 1;
     text-align: center;
     padding: 20px;
+
 }
 
 .item4{
@@ -372,8 +379,8 @@ font-size: medium;
 
 .horraires{
     text-align: center;
-    color: rgb(210, 160, 14);
-    font-weight: 800;
+    color: #333;
+    font-weight: 400;
     text-shadow: 1px 1px 1px black;
     width: 1024px;
     
@@ -392,7 +399,9 @@ font-size: medium;
   
   .slider img{
       width: 750px;
+
   }
+
   
   .item5{
       padding: 0;
@@ -684,7 +693,7 @@ font-size: medium;
         display: grid;
         grid-row: 5;
         grid-column: 2;
-       padding-left: 20px;
+        padding-left: 25px;
     }
 
     .item10{
@@ -704,6 +713,7 @@ font-size: medium;
 
 .item14{
     grid-row: 7;
+    padding-top: 0;
 }
 
  }
@@ -711,6 +721,13 @@ font-size: medium;
   /*------------------media 425----------*/
 
   @media  screen and (max-width: 425px) {
+
+
+    h1{
+font-size: medium;
+
+    }
+
 
     .bandeau{
         width: 425px;
@@ -732,7 +749,9 @@ font-size: medium;
         max-width: 180px;
     }
 
-  
+  .item11{
+    padding-left: 70px;
+  }
 
       
   }
@@ -749,7 +768,7 @@ font-size: medium;
     }
     
     .bandeau img{
-       max-width: auto;
+       max-width: 390px;
    }
 
    .horraires{
@@ -770,7 +789,7 @@ font-size: medium;
  
    .container img{
     
-   max-width: auto;
+   max-width: 150px;
 }
 
     .item2{
@@ -798,6 +817,10 @@ font-size: medium;
       
    }
 
+   .item9{
+       padding-left: 20px;
+   }
+
    .item10{
        grid-row: 4;
        grid-column: 2;
@@ -806,7 +829,7 @@ font-size: medium;
    .item11{
        grid-row: 6;
        grid-column:2;
-       padding: 0;
+       padding-left: 70px;
        text-align: left;
 
    }
@@ -817,7 +840,7 @@ font-size: medium;
        font-size:12px;
        text-align: left;
        grid-row-start: 5;
-       padding:5px 0px 0px 20px;
+       padding:5px 0px 0px 10px;
        font-weight: 800;
    }
 
