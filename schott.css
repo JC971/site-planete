@@ -242,22 +242,31 @@ li a{
     color: #fff;
 }
 
+/*----------------------1900---------------------------------*/
+
+@media screen (max-width: 1900px) {
+    
+}
+
 /*----------------------media-----1600px------------------------*/
 
-@media screen  (max-width: 1600px){
+@media screen and (max-width: 1600px){
+
     .bandeau{
         width: 1600px;
     }
+
     .bandeau img{
         width: 1600px;
         max-width: 100%;
         
     }
+
     .container{
-       
+        
         grid-template-columns: repeat(5, 1fr);
         padding: 0;
-        max-width: 1600px;
+        width: 1600px;
         width: 100%;
       
        
@@ -282,6 +291,7 @@ li a{
   }
  
     .container{
+    width: 1440px;    
     box-sizing: border-box;
     grid-template-columns: repeat( 5, 1fr);
     max-width: 100%;

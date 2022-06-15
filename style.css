@@ -225,6 +225,9 @@ h1{
 }
 
 
+
+
+
 li a:hover{
     background-color: grey;
     
@@ -265,15 +268,27 @@ li a{
     padding: 20px;
     text-align: justify;
 }
+
+.item11 a{
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
 .item12{
     grid-column: 3;
     grid-row: 2;
     Padding: 20px;
     text-align: justify;
-    
-    
       
 }
+
+.item12 a{
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
 .item13{
     grid-column: 6;
     grid-row:1;
@@ -293,6 +308,12 @@ li a{
     padding: 20px;
     grid-column-start: 1;
     grid-row-start: 2;
+}
+
+.item16 a{
+    text-decoration: none;
+    font-weight: 600;
+    
 }
 
 .item17{
@@ -396,9 +417,20 @@ text-decoration: none;
     color: #fff;
     font-size: smaller;
 }
+/*-------------------------------1900---------------*/
+
+@media screen (max-width: 1900px) {
+
+
+    
+}
+
+
+
+
 /*----------------------------medias ----1600----------------------------------*/
 
-@media screen  (max-width: 1600px){
+@media screen and (max-width: 1600px){
    
     .container{
        
@@ -411,20 +443,23 @@ text-decoration: none;
         
     }
 
-.container img{
+
     .container img{
     
         max-width: 450px;  
         max-height: 280px;
         
       }
-}
 
+    .bandeau{
+        width: 1600px;
+}
 
     .bandeau img{
         
         max-width: 1600px;
-        width: 100%;
+        height: auto;
+      
        
         
     }
@@ -442,10 +477,10 @@ text-decoration: none;
        
      .bandeau{
          max-width: 1440px;
-         height: ;
+        
      }
      .bandeau img{
-         width: 1480px;
+         width: 1440px;
      }
        
          
@@ -454,7 +489,7 @@ text-decoration: none;
 }
     .container{
         box-sizing: border-box;
-        width: 14400px;
+        width: 1440px;
         grid-template-columns: repeat(6 , 1fr);
         width: 100%;
        
