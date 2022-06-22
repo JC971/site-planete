@@ -26,6 +26,7 @@ body{
     text-align: left;
     font-size: 2em;
     width: 1900px;
+    box-sizing: border-box;
     
     
 }
@@ -236,11 +237,35 @@ li a{
     color: #fff;
 }
 
+/*--------------------1900------------------------------------*/
 
-/*-----------------media----------------------------------*/
+@media  screen (max-width: 1900px) {
+    .bandeau{
+        width: 1900px;
+    }
+
+    .bandeau img{
+        width: 1900px;
+        max-width: 100%;
+        
+    }
+
+    .container{
+        
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        width: 1900px;
+        width: 100%;
+      
+    }
+    
+}
 
 
-@media screen  (max-width: 1600px){
+/*-----------------media-1600---------------------------------*/
+
+
+@media screen and (max-width: 1600px){
     .bandeau img{
         width: 100%;
         max-width: 1600px;

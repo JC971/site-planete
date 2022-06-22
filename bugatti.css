@@ -235,9 +235,15 @@ li a{
     color: #fff;
 }
 
+/*---------------------------1900----------------------------*/
+
+@media  screen (max-width: 1900px) {
+    
+}
+
 /*----------------------media-----1600px------------------------*/
 
-@media screen  (max-width: 1600px){
+@media screen and (max-width: 1600px){
     .bandeau{
         width: 1600px;
     }

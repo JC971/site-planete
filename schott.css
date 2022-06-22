@@ -14,7 +14,7 @@ body{
     
     
     font-family: 'Pridi', serif;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
    
@@ -245,8 +245,28 @@ li a{
 /*----------------------1900---------------------------------*/
 
 @media screen (max-width: 1900px) {
-    
+
+    .bandeau{
+        width: 1900px;
+    }
+
+    .bandeau img{
+        width: 1900px;
+        max-width: 100%;
+        
+    }
+
+    .container{
+        
+        grid-template-columns: repeat(5, 1fr);
+        padding: 0;
+        width: 1900px;
+        width: 100%;
+      
+    }
 }
+    
+
 
 /*----------------------media-----1600px------------------------*/
 
@@ -269,11 +289,6 @@ li a{
         width: 1600px;
         width: 100%;
       
-       
-      
-      
-       
-        
     }
 }
 /*------------------media 1440----------*/

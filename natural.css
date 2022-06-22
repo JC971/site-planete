@@ -262,9 +262,15 @@ li a{
     
 }
 
+/*------------------------1900-------------------*/
+
+@media screen (max-width: 1900px){
+
+}
+
 /*-----------------------------media--------------------------------------*/
 
-@media screen  (max-width: 1600px){
+@media screen and (max-width: 1600px){
     .bandeau img{
         width: 100%;
         max-width: 1600px;

@@ -23,7 +23,8 @@ body{
     }
 
 main{
-    padding: 30px;
+    padding-left: 300px;
+    padding-right: 250px;
 }
 /*----------------------nav bar-------------------------*/
 .bandeau{
@@ -55,6 +56,11 @@ main{
 
 p {
     padding: 30px;
+    line-height: 30px;
+    font-size: large;
+    text-align: justify;
+    
+
 }
 /*------------------------container-----------------------------------------------*/
 
@@ -72,7 +78,8 @@ p {
  .mentions{
     padding: 20px;
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .legal{
@@ -89,6 +96,7 @@ h3{
 
 h4{
     padding: 30px;
+    font-size: x-large;
 }
 
 
